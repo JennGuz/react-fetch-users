@@ -20,11 +20,11 @@ export const Userlist = () => {
     
     return (
         <>
-            <h1>
+            <ul>
                 {users.map(user => 
                     <li>{user.name}</li>
                 )}
-            </h1>
+            </ul>
         </>
     )
 
